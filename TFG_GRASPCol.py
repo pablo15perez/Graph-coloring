@@ -166,7 +166,7 @@ Creo la matriz de adyacencia del grafo a partir del archivo .txt que contiene
 la lista de las aristas del grafo. El archivo .txt está extraído de 
 https://github.com/Cyril-Grelier/gc_instances , del archivo .edgelist (lista de
 aristas).
-
+"""
 
 edges = set()
 with open('queen10_10.txt', 'r') as file:
@@ -208,7 +208,7 @@ color = GRASPCol(adj_matrix, [i for i in range(100)], edges, 3, 15, 15)
 final = time.time()
 tiempo = final - inicio
 valido = es_coloracion_factible(color, adj_matrix)
-"""
+
 
 
 
