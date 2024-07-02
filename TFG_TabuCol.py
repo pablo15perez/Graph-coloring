@@ -156,7 +156,7 @@ Creo la matriz de adyacencia del grafo a partir del archivo .txt que contiene
 la lista de las aristas del grafo. El archivo .txt está extraído de 
 https://github.com/Cyril-Grelier/gc_instances , del archivo .edgelist (lista de
 aristas).
-
+"""
 edges = []
 with open('school1.txt', 'r') as file:
     for line in file:
@@ -198,6 +198,6 @@ def es_coloracion_valida(M, c):
     return True
 
 valido = es_coloracion_valida(adj_matrix, coloracion)
-"""
+
 
 
