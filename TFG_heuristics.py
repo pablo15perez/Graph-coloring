@@ -131,7 +131,7 @@ def RLF(M, n):
     return q, S
 
 
-"""
+
 edges = []
 with open('queen15_15.txt', 'r') as file:
 
@@ -156,6 +156,6 @@ res, clases = WP(adj_matrix, 225)
 final = time.time()
 t = final - inicio
 print(f"{res} colores en {t} tiempo")
-"""
+
 
 
